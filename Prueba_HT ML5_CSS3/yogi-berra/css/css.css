@@ -1,0 +1,68 @@
+html{
+    background-image:url("../img/violeta.png");
+    background-size: 40px;
+}
+
+body{
+    background-color: #a4c6ec;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1{
+    text-align: center;
+    text-shadow:10px -2px 3px white;
+}
+
+hr{
+    clear: both;
+    height: 3px;
+    background-color: #5c59a4;
+}
+
+img{
+    border-spacing: 300px;
+    border: black 2px solid;
+    width:120px;
+    float: left;
+}
+
+.cabecera{
+    padding-top: 10px;
+    background-color: white;
+    height: 130px;
+}
+
+.parrafoInicio{
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.frases{
+    margin-left: 120px;
+    background-color: #a4c6ec;
+    font-size:xx-large;
+}
+
+.naranja{
+    width: 28%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    background-color: orange;
+    border-style: dashed;
+    border-color: white;
+    margin: 5px;
+}
+
+.verde{
+    width: 28%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-color: #246604;
+    background-image:url("../img/verde.png");
+    margin: 5px;
+    border-radius: 8px;
+}
