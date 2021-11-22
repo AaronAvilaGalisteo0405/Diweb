@@ -1,0 +1,32 @@
+$color_de_texto: #eee;
+$color_de_texto_al_pasar_sobre_el: #fff;
+$color_de_fondo: #666;
+$color_de_fondo_over:  #888;
+
+@mixin mix_color(){
+    color: $color_de_texto;
+    background-color: $color_de_fondo;
+}
+@mixin mix_colorOver(){
+    color: $color_de_texto_al_pasar_sobre_el;
+    color: $color_de_fondo_over;
+}
+@mixin box_tamano(){
+    box-sizing: $boxsize;
+}
+@mixin transicion($properTrans,$duraTrans,$timTrans:linear){
+    transition-property: $properTrans;
+    transition-duration: $duraTrans;
+    transition-timing-function: $timTrans;
+    -moz-transition: $properTrans $duraTrans $timTrans;
+    -webkit-transition: $properTrans $duraTrans $timTrans;
+}
+@mixin animar($nomAnima,$durAnima,$timingAnima){
+    animation-name: $nomAnima;
+    animation-duration: $durAnima;
+    animation-timing-function: $timingAnima;
+    -moz-animation: $nomAnima $durAnima $timingAnima;
+    -webkit-animation:  $nomAnima $durAnima $timingAnima;
+}
+
+@import '_menu.scss'
