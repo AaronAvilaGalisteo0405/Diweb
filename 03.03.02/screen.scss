@@ -11,7 +11,7 @@ $color_de_fondo_over:  #888;
     color: $color_de_texto_al_pasar_sobre_el;
     color: $color_de_fondo_over;
 }
-@mixin box_tamano(){
+@mixin box_tamano($boxsize){
     box-sizing: $boxsize;
 }
 @mixin transicion($properTrans,$duraTrans,$timTrans:linear){

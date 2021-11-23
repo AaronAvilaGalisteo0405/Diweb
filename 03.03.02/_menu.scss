@@ -35,7 +35,7 @@ nav {
 
 ul{
     .submenu{
-        @include transiciones(height,0.5s,ease-out);
+        @include transicion(height,0.5s,ease-out);
         position: absolute;
         height: 0px;
         overflow: hidden;
